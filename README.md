@@ -40,6 +40,20 @@ We standardize `user-name` as your full legal name, `site-name` as the domain na
 
 Spectre's algorithm and implementation is fully documented and licensed Free Software under the (GPLv3)[LICENSE].
 
+# Building
+
+Requirements:
+- meson
+- ninja
+- libsodium
+
+To build the library
+
+``` shellsession
+$ meson setup build
+$ cd build
+$ ninja
+```
 
 ## Components
 
